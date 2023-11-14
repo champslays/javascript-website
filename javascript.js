@@ -1,4 +1,4 @@
 function onClick(inputName) {
-    document.getElementById("output").innerHTML = "Lest meet Up";
+    document.getElementById("output").innerHTML = "Lets meet Up";
     alert('Hello, ' + inputName + '!');
 }
