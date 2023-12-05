@@ -3,8 +3,8 @@ function onClick(inputValue) {
     const url = 'https://pokeapi.co/api/v2/pokemon';
     $.get(url,function(data, status){
         if (status === 'success') {
-            const pokemonNames = data.results.map(function(pokemon) {git add .
-               return '<h2>' + pokemon.name + '</h2>';
+            const pokemonNames = data.results.map(function(pokemon) {
+               return '<h2>' + pokemon.name + '</h2>'
             });   
             console.log(pokemonNames);
             document.getElementById("displayedText").innerHTML = pokemonNames;
